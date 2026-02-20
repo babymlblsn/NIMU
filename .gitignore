@@ -1,0 +1,42 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Сборка
+dist/
+build/
+*.next/
+out/
+
+# Переменные окружения
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Логи
+logs/
+*.log
+
+# Временные файлы
+tmp/
+temp/
+
+# Десктоп версия (не коммитим)
+/desktop/
+
+# Базы данных (локальные)
+*.sqlite
+*.db
